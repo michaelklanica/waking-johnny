@@ -2,9 +2,155 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Waking Johnny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Waking Johnny is a loud, urgent, stylistically varied rock band from San Antonio."
+    />
+    <title>Waking Johnny | San Antonio Rock Band</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/main.js" defer></script>
   </head>
   <body>
-    <h1>Waking Johnny</h1>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-content">
+        <a class="site-logo" href="#hero" aria-label="Waking Johnny home">
+          <span class="site-logo-name">Waking Johnny</span>
+          <span class="site-logo-placeholder">Logo forthcoming</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#live-media">Live</a></li>
+            <li><a href="#shows">Shows</a></li>
+            <li><a href="#lineup">Lineup</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="hero" aria-labelledby="hero-title">
+        <div class="section-content">
+          <p class="section-label">San Antonio, Texas</p>
+          <h1 id="hero-title">Waking Johnny</h1>
+          <p class="hero-summary">
+            Loud, urgent rock with no interest in standing still.
+          </p>
+          <div class="hero-actions">
+            <a href="#live-media">Hear us live</a>
+            <a href="#shows">See upcoming shows</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="section-content">
+          <h2 id="about-title">About the band</h2>
+          <p>
+            Waking Johnny is a loud, urgent, stylistically varied rock band
+            from San Antonio. More of the story is coming soon.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="live-media"
+        id="live-media"
+        aria-labelledby="live-media-title"
+      >
+        <div class="section-content">
+          <h2 id="live-media-title">Live media</h2>
+          <div class="media-placeholder">
+            <p>Selected Facebook live footage will be added here.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="shows" id="shows" aria-labelledby="shows-title">
+        <div class="section-content">
+          <h2 id="shows-title">Upcoming shows</h2>
+          <p class="shows-placeholder">
+            Upcoming show listings will be posted here.
+          </p>
+        </div>
+      </section>
+
+      <section class="lineup" id="lineup" aria-labelledby="lineup-title">
+        <div class="section-content">
+          <h2 id="lineup-title">Band lineup</h2>
+          <ul class="lineup-list">
+            <li>
+              <strong>Garland</strong>
+              <span>Vocals/Guitar</span>
+            </li>
+            <li>
+              <strong>Evan</strong>
+              <span>Baritone Guitar</span>
+            </li>
+            <li>
+              <strong>Mike</strong>
+              <span>Bass</span>
+            </li>
+            <li>
+              <strong>Chris</strong>
+              <span>Drums</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div class="section-content">
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            Booking and general inquiries:
+            <a href="mailto:contact@wakingjohnny.com">
+              contact@wakingjohnny.com
+            </a>
+          </p>
+
+          <form class="contact-form">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6"></textarea>
+            </div>
+
+            <button type="submit">Send message</button>
+          </form>
+
+          <nav class="social-nav" aria-label="Social media">
+            <ul class="social-links">
+              <li><a href="#">Facebook <span>(link forthcoming)</span></a></li>
+              <li><a href="#">Instagram <span>(link forthcoming)</span></a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Waking Johnny.</p>
+    </footer>
   </body>
 </html>
