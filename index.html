@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Waking Johnny is a loud, urgent, stylistically varied rock band from San Antonio."
+      content="Waking Johnny is a loud, urgent, stylistically varied rock band from San Antonio, Texas."
     />
     <title>Waking Johnny | San Antonio Rock Band</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -15,19 +15,21 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
 
     <header class="site-header">
-      <div class="header-content">
-        <a class="site-logo" href="#hero" aria-label="Waking Johnny home">
-          <span class="site-logo-name">Waking Johnny</span>
-          <span class="site-logo-placeholder">Logo forthcoming</span>
+      <div class="header-inner">
+        <a class="brand-mark" href="#home" aria-label="Waking Johnny home">
+          <img
+            src="assets/images/waking-johnny-logo.png"
+            alt=""
+            width="1254"
+            height="1254"
+          />
         </a>
 
         <nav class="site-nav" aria-label="Primary navigation">
-          <ul class="nav-list">
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#live-media">Live</a></li>
+          <ul>
             <li><a href="#shows">Shows</a></li>
-            <li><a href="#lineup">Lineup</a></li>
+            <li><a href="#live">Live</a></li>
+            <li><a href="#band">Band</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -35,122 +37,255 @@
     </header>
 
     <main id="main-content">
-      <section class="hero" id="hero" aria-labelledby="hero-title">
-        <div class="section-content">
-          <p class="section-label">San Antonio, Texas</p>
-          <h1 id="hero-title">Waking Johnny</h1>
-          <p class="hero-summary">
-            Loud, urgent rock with no interest in standing still.
-          </p>
-          <div class="hero-actions">
-            <a href="#live-media">Hear us live</a>
-            <a href="#shows">See upcoming shows</a>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">San Antonio, Texas</p>
+            <h1 id="hero-title">
+              Loud. Urgent.<br />
+              <span>Hard to pin down.</span>
+            </h1>
+            <p class="hero-intro">
+              Waking Johnny is a stylistically varied rock band built for the
+              room, the stage, and the moment things come loose.
+            </p>
+            <div class="button-row">
+              <a class="button button--solid" href="#live">Watch live</a>
+              <a class="button button--outline" href="#contact">Book the band</a>
+            </div>
+          </div>
+
+          <div class="hero-mark" aria-hidden="true">
+            <div class="hero-mark-color"></div>
+            <img
+              src="assets/images/waking-johnny-logo.png"
+              alt=""
+              width="1254"
+              height="1254"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+
+        <div class="identity-strip" aria-label="Band description">
+          <span>Rock &amp; roll</span>
+          <span>San Antonio</span>
+          <span>Volume encouraged</span>
+        </div>
+      </section>
+
+      <section class="shows section" id="shows" aria-labelledby="shows-title">
+        <div class="section-shell section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">On stage</p>
+            <h2 id="shows-title">Upcoming shows</h2>
+          </div>
+
+          <div class="shows-board">
+            <p class="shows-status">No dates posted yet.</p>
+            <p>
+              Upcoming shows will appear here. Follow the band for announcements
+              or get in touch about a date.
+            </p>
+            <div class="text-links">
+              <a
+                href="https://www.instagram.com/wakingjohnny.band/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Follow on Instagram</a>
+              <a href="#contact">Booking contact</a>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="about" id="about" aria-labelledby="about-title">
-        <div class="section-content">
-          <h2 id="about-title">About the band</h2>
-          <p>
-            Waking Johnny is a loud, urgent, stylistically varied rock band
-            from San Antonio. More of the story is coming soon.
-          </p>
-        </div>
-      </section>
+      <section class="live section" id="live" aria-labelledby="live-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <div>
+              <p class="eyebrow">Turn it up</p>
+              <h2 id="live-title">Watch &amp; listen</h2>
+            </div>
+            <p class="section-intro">
+              Live recordings and music from Waking Johnny's public channels.
+              Players connect to their platforms only after you load them.
+            </p>
+          </div>
 
-      <section
-        class="live-media"
-        id="live-media"
-        aria-labelledby="live-media-title"
-      >
-        <div class="section-content">
-          <h2 id="live-media-title">Live media</h2>
-          <div class="media-placeholder">
-            <p>Selected Facebook live footage will be added here.</p>
+          <div class="media-grid">
+            <article class="media-card media-card--featured">
+              <div class="media-player media-player--video">
+                <button
+                  class="media-load"
+                  type="button"
+                  data-embed-title="Waking Johnny — Inside Out live on YouTube"
+                  data-embed-src="https://www.youtube-nocookie.com/embed/KSWhCQFf2VQ"
+                >
+                  <span>Play</span>
+                  Load YouTube video
+                </button>
+              </div>
+              <div class="media-details">
+                <p class="media-source">YouTube / Live at 502 Bar</p>
+                <h3>Inside Out <span>(Live)</span></h3>
+                <a
+                  href="https://www.youtube.com/watch?v=KSWhCQFf2VQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Watch on YouTube</a>
+              </div>
+            </article>
+
+            <article class="media-card">
+              <div class="media-player media-player--video">
+                <button
+                  class="media-load"
+                  type="button"
+                  data-embed-title="Waking Johnny — Black Market Sunday live reel on Facebook"
+                  data-embed-src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1634446761015399%2F&amp;show_text=false&amp;width=500"
+                >
+                  <span>Play</span>
+                  Load Facebook video
+                </button>
+              </div>
+              <div class="media-details">
+                <p class="media-source">Facebook / Live reel</p>
+                <h3>Black Market Sunday</h3>
+                <a
+                  href="https://www.facebook.com/reel/1634446761015399/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Watch on Facebook</a>
+              </div>
+            </article>
+
+            <article class="media-card">
+              <div class="media-player media-player--audio">
+                <button
+                  class="media-load"
+                  type="button"
+                  data-embed-title="Waking Johnny — Black Market Sunday on SoundCloud"
+                  data-embed-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A268509657&amp;color=%23d35b31&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                >
+                  <span>Play</span>
+                  Load SoundCloud player
+                </button>
+              </div>
+              <div class="media-details">
+                <p class="media-source">SoundCloud / From the archive</p>
+                <h3>Black Market Sunday</h3>
+                <a
+                  href="https://soundcloud.com/user-594197215/black-market-sunday"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Listen on SoundCloud</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>
 
-      <section class="shows" id="shows" aria-labelledby="shows-title">
-        <div class="section-content">
-          <h2 id="shows-title">Upcoming shows</h2>
-          <p class="shows-placeholder">
-            Upcoming show listings will be posted here.
-          </p>
-        </div>
-      </section>
+      <section class="band section" id="band" aria-labelledby="band-title">
+        <div class="section-shell section-grid">
+          <div class="section-heading">
+            <p class="eyebrow">The band</p>
+            <h2 id="band-title">Four players. One loud room.</h2>
+          </div>
 
-      <section class="lineup" id="lineup" aria-labelledby="lineup-title">
-        <div class="section-content">
-          <h2 id="lineup-title">Band lineup</h2>
-          <ul class="lineup-list">
-            <li>
-              <strong>Garland</strong>
-              <span>Vocals/Guitar</span>
-            </li>
-            <li>
-              <strong>Evan</strong>
-              <span>Baritone Guitar</span>
-            </li>
-            <li>
-              <strong>Mike</strong>
-              <span>Bass</span>
-            </li>
-            <li>
-              <strong>Chris</strong>
-              <span>Drums</span>
-            </li>
-          </ul>
-        </div>
-      </section>
+          <div class="band-content">
+            <p class="band-intro">
+              Waking Johnny is a loud, urgent, stylistically varied rock band
+              from San Antonio. Serious when it counts, strange when it helps,
+              and always built around the live performance.
+            </p>
 
-      <section class="contact" id="contact" aria-labelledby="contact-title">
-        <div class="section-content">
-          <h2 id="contact-title">Contact</h2>
-          <p>
-            Booking and general inquiries:
-            <a href="mailto:contact@wakingjohnny.com">
-              contact@wakingjohnny.com
-            </a>
-          </p>
-
-          <form class="contact-form">
-            <div class="form-field">
-              <label for="name">Name</label>
-              <input id="name" name="name" type="text" autocomplete="name" />
-            </div>
-
-            <div class="form-field">
-              <label for="email">Email</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                autocomplete="email"
-              />
-            </div>
-
-            <div class="form-field">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6"></textarea>
-            </div>
-
-            <button type="submit">Send message</button>
-          </form>
-
-          <nav class="social-nav" aria-label="Social media">
-            <ul class="social-links">
-              <li><a href="#">Facebook <span>(link forthcoming)</span></a></li>
-              <li><a href="#">Instagram <span>(link forthcoming)</span></a></li>
+            <ul class="lineup-list" aria-label="Band lineup">
+              <li><strong>Garland</strong><span>Vocals / Guitar</span></li>
+              <li><strong>Evan</strong><span>Baritone Guitar</span></li>
+              <li><strong>Mike</strong><span>Bass</span></li>
+              <li><strong>Chris</strong><span>Drums</span></li>
             </ul>
-          </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="section-shell">
+          <div class="contact-lead">
+            <p class="eyebrow">Booking &amp; inquiries</p>
+            <h2 id="contact-title">Bring Waking Johnny to the room.</h2>
+            <a class="email-link" href="mailto:wakingjohnnymgt@gmail.com">
+              wakingjohnnymgt@gmail.com
+            </a>
+          </div>
+
+          <div class="contact-grid">
+            <form class="contact-form">
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" autocomplete="name" required />
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+
+              <div class="form-field form-field--full">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+
+              <div class="form-submit form-field--full">
+                <button class="button button--solid" type="submit" disabled>
+                  Prepare email
+                </button>
+                <p>This opens your email app for review.</p>
+              </div>
+            </form>
+
+            <nav class="social-nav" aria-label="Social media">
+              <p>Find the band</p>
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/wakingjohnny/" target="_blank" rel="noopener noreferrer">
+                    Facebook <span aria-hidden="true">↗</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/wakingjohnny.band/" target="_blank" rel="noopener noreferrer">
+                    Instagram <span aria-hidden="true">↗</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@WakingJohnny" target="_blank" rel="noopener noreferrer">
+                    YouTube <span aria-hidden="true">↗</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://soundcloud.com/user-594197215" target="_blank" rel="noopener noreferrer">
+                    SoundCloud <span aria-hidden="true">↗</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; Waking Johnny.</p>
+      <div>
+        <p>Waking Johnny</p>
+        <p>San Antonio, Texas</p>
+      </div>
     </footer>
   </body>
 </html>

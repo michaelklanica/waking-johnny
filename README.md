@@ -24,13 +24,17 @@ to contact or follow the band.
 ## Initial scope
 
 - One responsive static page.
-- Selected public Facebook live recordings or embeds.
+- A temporary original, generated hero background of defocused orange-magenta
+  concert light. The supplied logo file remains intact; a reversible CSS
+  treatment lets the background show through its dark areas.
+- Selected public YouTube and Facebook live recordings, plus an archived
+  SoundCloud track, loaded on demand.
 - Placeholder upcoming-show content until real listings and an update process
   are available.
 - A lineup section with names and roles, without individual biographies.
 - A contact form with name, email, and message fields.
-- The planned public email address, `contact@wakingjohnny.com`.
-- Facebook and Instagram links.
+- The public contact address, `wakingjohnnymgt@gmail.com`.
+- Facebook, Instagram, YouTube, and SoundCloud links.
 
 ## Content structure
 
@@ -56,8 +60,9 @@ later if the site grows.
 ## Technical approach
 
 - Use semantic HTML, plain CSS, and minimal vanilla JavaScript.
-- Do not introduce frameworks, package managers, build tools, or third-party
-  dependencies.
+- Do not introduce frameworks, package managers, build tools, or installed
+  dependencies. Platform-hosted media players load only after a visitor chooses
+  to open them.
 - Keep the core content usable without JavaScript and use scripts only for
   focused enhancements.
 - Build responsive layouts directly in CSS and serve all source files as static
@@ -65,11 +70,10 @@ later if the site grows.
 
 ## Deferred decisions
 
-- Final hero layout and the amount of photography, pending review of available
-  images.
-- How to obtain and prepare the existing logo, which is currently available
-  only through social media.
-- The final selection and presentation of public Facebook recordings.
+- Replacing the temporary hero background with a high-resolution original of
+  the preferred July 18 Instagram image, once available and cleared for use.
+- Whether to feature additional public social posts or recordings.
+- Whether to replace the current email-app handoff with a hosted contact form.
 - The long-term method for maintaining upcoming-show information.
 
 ## Development workflow
